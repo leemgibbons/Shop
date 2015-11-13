@@ -1,0 +1,285 @@
+@charset "utf-8";
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+h1 {
+    margin: 0;
+}
+/* Common */
+
+ul {
+    list-style: none;
+}
+/* Nav Bar */
+
+.NavContent {
+    width: 100%;
+    background-color: #3b3b3b;
+    height: 4em;
+    position: fixed;
+    z-index: 99999;
+}
+.NavContent .Content {
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+    background-color: #3b3b3b;
+    height: 4em;
+}
+.NavContent .Links {
+    float: left;
+    font-family: 'Arial', sans-serif;
+    color: #ffffff;
+    font-size: 16px;
+}
+.NavContent .Links li {
+    display: inline-block;
+    padding-left: 15px;
+    padding-top: 25px;
+}
+.NavContent .Links li:hover {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+}
+.NavContent .LinksCheckout {
+    float: right;
+    font-family: 'Arial', sans-serif;
+    color: #ffffff;
+    font-size: 16px;
+}
+.NavContent .LinksCheckout li {
+    display: inline-block;
+    padding-left: 15px;
+    padding-top: 25px;
+}
+.NavContent .LinksCheckout li:hover {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+}
+/* Main Content */
+
+.MainBackground {
+    width: 100%;
+    height: 100em;
+    background-image: url(../images/Backgroundimages191015.JPG);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: -20em, 0em;
+    opacity: 0.7;
+}
+.MainBackground .Content {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    background-color: #ffffff;
+    height: 100em;
+}
+.MainBackground .header {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 5em;
+}
+/*Shopping Section2*/
+
+.header {
+    background-color: #dfdfdf;
+    box-shadow: 0px 5px 0px 0px rgb(34, 34, 34),
+    /* 1st Shadow */
+}
+#shoppingbox {
+    border: 5px solid white;
+    -webkit-box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.1), 0 0 16px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.1), 0 0 16px rgba(0, 0, 0, 0.1);
+    box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.1), 0 0 16px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.5);
+    margin: 10px 0 10px 0;
+}
+.shoppinglist {
+    border: 5px solid white;
+    -webkit-box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.1), 0 0 16px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.1), 0 0 16px rgba(0, 0, 0, 0.1);
+    box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.1), 0 0 16px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.5);
+    margin: 10px 0 10px 0;
+}
+#additem {
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 1px 1px rgba(250, 250, 250, 0.1);
+    font-size: 14pt;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 2px 0px 0px rgb(34, 34, 34),
+    /* 1st Shadow */
+    
+    inset 0px 1px 1px 0px rgba(250, 250, 250, .2),
+    /* 3rd Shadow */
+    
+    inset 0px -12px 35px 0px rgba(0, 0, 0, .5);
+    /* 4th Shadow */
+    
+    width: 30px;
+    height: 30px;
+    border: 0;
+    border-radius: 35px;
+    text-align: center;
+}
+.checkbox {
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 1px 1px rgba(250, 250, 250, 0.1);
+    font-size: 14pt;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 2px 0px 0px rgb(34, 34, 34),
+    /* 1st Shadow */
+    
+    inset 0px 1px 1px 0px rgba(250, 250, 250, .2),
+    /* 3rd Shadow */
+    
+    inset 0px -12px 35px 0px rgba(0, 0, 0, .5);
+    /* 4th Shadow */
+    
+    width: 30px;
+    height: 30px;
+    border: 2px;
+    text-align: center;
+}
+#removeitem {
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 1px 1px rgba(250, 250, 250, 0.1);
+    font-size: 14pt;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 2px 0px 0px rgb(34, 34, 34),
+    /* 1st Shadow */
+    
+    inset 0px 1px 1px 0px rgba(250, 250, 250, .2),
+    /* 3rd Shadow */
+    
+    inset 0px -12px 35px 0px rgba(0, 0, 0, .5);
+    /* 4th Shadow */
+    
+    width: 30px;
+    height: 30px;
+    border: 0;
+    border-radius: 35px;
+    text-align: center;
+}
+#removeitem a:active {
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 1px 1px rgba(250, 250, 250, 0.1);
+    font-size: 14pt;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0px 2px 0px 0px rgb(34, 34, 34),
+    /* 1st Shadow */
+    
+    width: 30px;
+    height: 30px;
+    border: 0;
+    border-radius: 35px;
+    text-align: center;
+}
+#removeitem:hover {
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 1px 1px rgba(250, 250, 250, 0.1);
+    font-size: 14pt;
+    background-color: #dfdfdf;
+    box-shadow: 0px 2px 0px 0px rgb(34, 34, 34),
+    /* 1st Shadow */
+    
+    width: 30px;
+    height: 30px;
+    border: 0;
+    border-radius: 35px;
+    text-align: center;
+}
+.newitem {
+    padding-right: 10px;
+    padding-left: 10px;
+}
